@@ -4,17 +4,17 @@ let fakeUser;
 
 describe('Given the Users api', () => {
   beforeEach(() => {
-    cy.task('freshUser').then((user) => {
-      fakeUser = user;
+    cy.task('freshUser').then((users) => {
+      fakeUser = users;
       cy.log(JSON.stringify(fakeUser))
     });
   });
 
-  context('When I send POST /usuarios', () => {
+  context('When I send POST /users', () => {
     it('Then it should create a new user', () => {
       cy.request({
         method: 'POST',
-        url: '/usuarios',
+        url: '/users/create',
         body: fakeUser
       })
         .should((response) => {

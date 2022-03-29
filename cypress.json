@@ -1,4 +1,4 @@
 {
-  "baseUrl": "https://serverest.dev",
+  "baseUrl": "http://localhost:1238/",
   "video": false
 }
