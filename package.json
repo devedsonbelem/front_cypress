@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/murillowelsi/cypress-api-tutorial.git"
+    "url": "git+https://github.com/devedsonbelem/cypress.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/murillowelsi/cypress-api-tutorial/issues"
+    "url": "https://github.com/devedsonbelem/cypress/issues"
   },
-  "homepage": "https://github.com/murillowelsi/cypress-api-tutorial#readme",
+  "homepage": "https://github.com/devedsonbelem/cypress#readme",
   "devDependencies": {
     "cypress": "^7.7.0",
     "faker": "^5.5.3"
