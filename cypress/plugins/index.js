@@ -10,9 +10,9 @@ module.exports = (on, config) => {
   on("task", {
     freshUser() {
       users = {
-        id : '1006',
+        id : '1008',
         name: 'luciana',
-        email: 'luciana@gmail.com',
+        email: 'lucianamedeiros@gmail.com',
         password:"123456",
         latitude:1010,
         longitude:2020
