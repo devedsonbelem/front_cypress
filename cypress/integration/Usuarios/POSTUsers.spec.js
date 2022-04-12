@@ -14,12 +14,12 @@ describe('Given the Users api', () => {
     it('Then it should create a new user', () => {
       cy.request({
         method: 'POST',
-        url: '/users/create',
+        url: '/UsersApi/users/',
         body: fakeUser
       })
         .should((response) => {
           expect(response.status).eq(201)
-          expect(response.body.message).eq("Cadastro realizado com sucesso")
+          expect(response.body.msg).eq("users adicionado com sucesso")
         });
     });
   });
